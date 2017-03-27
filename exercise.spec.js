@@ -10,7 +10,7 @@ var blue = chai.spy.on(utils, 'blue');
 var magenta = chai.spy.on(utils, 'magenta');
 
 var fs = require('fs');
-var exercise = require('./exercise-one');
+var exercise = require('./exercise');
 var dirpath = path.join(__dirname, 'poem-one');
 var stanzas = fs.readdirSync(dirpath)
 .filter(function (filename) {
